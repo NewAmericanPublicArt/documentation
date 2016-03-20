@@ -1,0 +1,8 @@
+site_name: Blue Hour Baltimore documentation
+pages:
+- Home: index.md
+- Electrical: electrical.md
+- Mechanical: mechanical.md
+theme: cinder
+extra_css:
+    - css/extra.css
