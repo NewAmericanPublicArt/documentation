@@ -18,3 +18,5 @@
 14. All the code is also hosted on Github, which shows changes made as code was developed
 15. Eventually, photos
 16. Eventually, videos
+17. Slow-motion video of lights for debugging fast lighting effects
+18. Physical prototype: lights clamped to beam on wall; brain on desk
