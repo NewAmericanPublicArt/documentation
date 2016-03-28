@@ -2,6 +2,7 @@
 
 **Different representations of the cubes**
 
+0. (The cubes themselves)
 1. Hand sketches of stacks of cubes on paper and whiteboard
 2. 3D CAD model of cubes
 3. Parts of 3D model converted to .STL file for 3D printing of sensor brackets
@@ -22,3 +23,4 @@
 18. Physical prototype: lights clamped to beam on wall; brain on desk
 19. Event log streamed out USB port of microcontroller to verify behavior
 20. Event log pasted into Excel to create charts of color change dynamics
+21. GIF of cubes created on site for Twitter
