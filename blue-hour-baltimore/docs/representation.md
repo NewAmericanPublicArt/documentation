@@ -20,3 +20,5 @@
 16. Eventually, videos
 17. Slow-motion video of lights for debugging fast lighting effects
 18. Physical prototype: lights clamped to beam on wall; brain on desk
+19. Event log streamed out USB port of microcontroller to verify behavior
+20. Event log pasted into Excel to create charts of color change dynamics
