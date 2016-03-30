@@ -1,0 +1,9 @@
+site_name: Color Commons documentation
+pages:
+- Home: index.md
+- Electrical: electrical.md
+- Mechanical: mechanical.md
+- Software: software.md
+theme: cinder
+extra_css:
+    - css/extra.css

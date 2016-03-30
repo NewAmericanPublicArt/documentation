@@ -1,0 +1,8 @@
+site_name: Ourself documentation
+pages:
+- Home: index.md
+- Electrical: electrical.md
+- Mechanical: mechanical.md
+theme: cinder
+extra_css:
+    - css/extra.css
