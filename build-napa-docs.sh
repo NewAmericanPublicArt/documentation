@@ -10,10 +10,10 @@ cd /home/pi/documentation
 #done
 
 cd /home/pi/documentation/blue-hour-baltimore
-mkdocs build --clean --site-dir /var/www/snowden.pingswept.org/blue-hour-baltimore
+/usr/local/bin/mkdocs build --clean --site-dir /var/www/snowden.pingswept.org/blue-hour-baltimore
 
 cd /home/pi/documentation/color-commons
-mkdocs build --clean --site-dir /var/www/snowden.pingswept.org/color-commons
+/usr/local/bin/mkdocs build --clean --site-dir /var/www/snowden.pingswept.org/color-commons
 
 cd /home/pi/documentation/ourself
-mkdocs build --clean --site-dir /var/www/snowden.pingswept.org/ourself
+/usr/local/bin/mkdocs build --clean --site-dir /var/www/snowden.pingswept.org/ourself
