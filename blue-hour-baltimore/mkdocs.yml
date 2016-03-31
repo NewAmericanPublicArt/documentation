@@ -1,8 +1,9 @@
-site_name: Blue Hour Baltimore documentation
+site_name: Blue Hour Baltimore technical records
 pages:
 - Home: index.md
 - Electrical: electrical.md
 - Mechanical: mechanical.md
+- Software: software.md
 theme: cinder
 extra_css:
     - css/extra.css

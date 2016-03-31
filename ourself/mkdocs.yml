@@ -1,8 +1,9 @@
-site_name: Ourself documentation
+site_name: Ourself technical records
 pages:
 - Home: index.md
 - Electrical: electrical.md
 - Mechanical: mechanical.md
+- Software: software.md
 theme: cinder
 extra_css:
     - css/extra.css

@@ -1,4 +1,4 @@
-site_name: Color Commons documentation
+site_name: Color Commons technical records
 pages:
 - Home: index.md
 - Electrical: electrical.md
