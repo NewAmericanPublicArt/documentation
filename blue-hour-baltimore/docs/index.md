@@ -7,3 +7,17 @@ Blue Hour was originally designed for a 3 month installation in Camden, New Jers
 # Light City Baltimore #
 
 The second Blue Hour installation happened on March 28 - April 3, 2016 at Light City Baltimore, "the first large-scale international light festival in the United States," according to the organizers.
+
+Here's what the installation looked like. There were 6 towers of 3 cubes each. Each cube had 4 PIR motion sensors and a brain that monitored the sensors and changed the color of the cubes.
+
+<img src="img/blue-hour-baltimore-with-ship.jpg" width="750">
+
+The ship in the background is the USS Constellation, built in 1854.
+
+<img src="img/blue-hour-baltimore-daytime.jpg" width="750">
+
+Most of the media coverage showed Blue Hour when lots of people were around, but on one night of the festival, it rained, and the shy robot emerged.
+
+<img src="img/blue-hour-baltimore-shy-robot.jpg" width="750">
+
+<video controls="controls"><source src="img/blue-hour-baltimore-shy-robot.mp4" type="video/mp4"></video>
