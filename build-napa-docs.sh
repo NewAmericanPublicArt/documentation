@@ -10,10 +10,10 @@ cd /home/pi/records
 #done
 
 cd /home/pi/records/blue-hour-baltimore
-/usr/local/bin/mkdocs build --clean --site-dir /var/www/records.pingswept.org/blue-hour-baltimore
+/usr/local/bin/mkdocs build --clean --site-dir /var/www/records.newamericanpublicart.com/blue-hour-baltimore
 
 cd /home/pi/records/color-commons
-/usr/local/bin/mkdocs build --clean --site-dir /var/www/records.pingswept.org/color-commons
+/usr/local/bin/mkdocs build --clean --site-dir /var/www/records.newamericanpublicart.com/color-commons
 
 cd /home/pi/records/ourself
-/usr/local/bin/mkdocs build --clean --site-dir /var/www/records.pingswept.org/ourself
+/usr/local/bin/mkdocs build --clean --site-dir /var/www/records.newamericanpublicart.com/ourself
