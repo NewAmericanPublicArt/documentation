@@ -18,8 +18,8 @@ The basic operation is this:
 
 * So far, the ultrasonic sensors is responsive, but it has an annoying tendency to get stuck at close readings. Not sure what's going on with that.
 
-<img src="/img/ourself-prototype-iso-2016-04-07.jpg" width="750">
+<img src="/ourself/img/ourself-prototype-iso-2016-04-07.jpg" width="750">
 
-<img src="/img/ourself-prototype-top-2016-04-07.jpg" width="750">
+<img src="/ourself/img/ourself-prototype-top-2016-04-07.jpg" width="750">
 
-<img src="/img/ourself-prototype-front-2016-04-07.jpg" width="750">
+<img src="/ourself/img/ourself-prototype-front-2016-04-07.jpg" width="750">
