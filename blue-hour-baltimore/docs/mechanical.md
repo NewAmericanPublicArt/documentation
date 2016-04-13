@@ -5,3 +5,9 @@ We built the 6 towers of Blue Hour Baltimore out of "intermediate bulk container
 # Benches #
 
 Each tower was surrounded by a bench on 4 sides. Greg built the benches out of 2x12 (or 2x10?) pine, then sanded and coated with something polyurethane. The benchtops were supported by welded steel frames.
+
+# Electronics enclosure #
+
+The electronics were enclosed in a polycarbonate box.
+
+<img src="../img/enclosure-dimensions.jpg" width="750">
