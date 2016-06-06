@@ -23,3 +23,15 @@ The basic operation is this:
 <img src="/ourself/img/ourself-prototype-top-2016-04-07.jpg" width="750">
 
 <img src="/ourself/img/ourself-prototype-front-2016-04-07.jpg" width="750">
+
+# Final electronics #
+
+<img src="/ourself/img/ourself-teensy-with-rainbow-wires-2016-05-07.jpg" width="750">
+
+<img src="/ourself/img/ourself-two-sets-of-electronics-2016-05-11.jpg" width="750">
+
+<img src="/ourself/img/ourself-brain-boxes-2016-05-09.jpg" width="750">
+
+<img src="/ourself/img/ourself-enclosure-holes-drawing-2016-05-07.jpg" width="750">
+
+<img src="/ourself/img/ourself-whiteboard-wiring-2016-05-11.jpg" width="750">

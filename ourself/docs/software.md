@@ -22,3 +22,74 @@ With the current state machine running on the sensor Teensy, `ARR` means that th
 
 Don't delete the file "datalog.txt", or if you do, recreate it. If it doesn't exist, no data will be logged and you will be sad.
 
+# State machine in sensor Teensy #
+
+<img src="/ourself/img/ourself-state-machine-diagram-2016-05-10.jpg" width="750">
+
+<img src="/ourself/img/ourself-whiteboard-state-machine-2016-04-14.jpg" width="750">
+
+### State machine code ###
+
+This code worked nicely; it could be modified to make whatever state machine you need.
+
+```C
+void updateStateMachine(void) {
+    static int state = STATE_BASELINE;
+
+    Serial.print("STATE: ");
+    Serial.print(state);
+    Serial.print("\n");
+
+    switch(state) {
+        case STATE_BASELINE:
+            setLightsTarget(25); // set edge lights to low
+            // by default, ambient sound will be very low
+            digitalWrite(AUD1, LOW);
+            digitalWrite(AUD2, LOW);
+            digitalWrite(AUD3, LOW);
+            if(motionDetected() || personBetweenMirrors()) {
+                state = STATE_APPROACH;
+            }
+            break;
+        case STATE_APPROACH:
+            setLightsTarget(100);
+            digitalWrite(AUD1, HIGH);
+            digitalWrite(AUD2, LOW);
+            digitalWrite(AUD3, LOW);
+            if(personBetweenMirrors()) {
+                state = STATE_STORY;
+            } else if(!motionDetected()) {
+                state = STATE_BASELINE;
+            }
+            break;
+        case STATE_STORY:
+            digitalWrite(AUD1, LOW);
+            digitalWrite(AUD2, HIGH);
+            digitalWrite(AUD3, LOW);
+            setLightsTarget(255); // set edge light to high
+            if(!personBetweenMirrors()) {
+                if(motionDetected()) {
+                    state = STATE_LEAVING;
+                } else {
+                    // need a timeout in here?
+                    state = STATE_BASELINE; // this is the case where the person vanished without tripping the PIR
+                }
+            }
+            break;
+        case STATE_LEAVING:
+            digitalWrite(AUD1, LOW);
+            digitalWrite(AUD2, LOW);
+            digitalWrite(AUD3, HIGH);
+            setLightsTarget(100); // set edge lights to medium
+            if(personBetweenMirrors()) { // ah, they went back in!
+                state = STATE_STORY;
+            }
+            if(!motionDetected()) { // may also want a timeout in here
+                state = STATE_BASELINE;
+            }
+            break;
+    }
+}
+```
+
+
