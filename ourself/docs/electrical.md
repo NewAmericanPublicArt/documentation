@@ -18,22 +18,22 @@ The basic operation is this:
 
 * So far, the ultrasonic sensors is responsive, but it has an annoying tendency to get stuck at close readings. Not sure what's going on with that.
 
-<img src="/ourself/img/ourself-prototype-iso-2016-04-07.jpg" width="750">
+[![](img/thumbnail_750px_ourself-prototype-iso-2016-04-07.jpg)](img/ourself-prototype-iso-2016-04-07.jpg)
 
 [![](img/thumbnail_750px_ourself-prototype-iso-2016-04-07.jpg)](img/ourself-prototype-iso-2016-04-07.jpg)
 
-<img src="/ourself/img/ourself-prototype-top-2016-04-07.jpg" width="750">
+[![](img/thumbnail_750px_ourself-prototype-top-2016-04-07.jpg)](img/ourself-prototype-top-2016-04-07.jpg)
 
-<img src="/ourself/img/ourself-prototype-front-2016-04-07.jpg" width="750">
+[![](img/thumbnail_750px_ourself-prototype-front-2016-04-07.jpg)](img/ourself-prototype-front-2016-04-07.jpg)
 
 # Final electronics #
 
-<img src="/ourself/img/ourself-teensy-with-rainbow-wires-2016-05-07.jpg" width="750">
+[![](img/thumbnail_750px_ourself-teensy-with-rainbow-wires-2016-05-07.jpg)](img/ourself-teensy-with-rainbow-wires-2016-05-07.jpg)
 
-<img src="/ourself/img/ourself-two-sets-of-electronics-2016-05-11.jpg" width="750">
+[![](img/thumbnail_750px_ourself-two-sets-of-electronics-2016-05-11.jpg)](img/ourself-two-sets-of-electronics-2016-05-11.jpg)
 
-<img src="/ourself/img/ourself-brain-boxes-2016-05-09.jpg" width="750">
+[![](img/thumbnail_750px_ourself-brain-boxes-2016-05-09.jpg)](img/ourself-brain-boxes-2016-05-09.jpg)
 
-<img src="/ourself/img/ourself-enclosure-holes-drawing-2016-05-07.jpg" width="750">
+[![](img/thumbnail_750px_ourself-enclosure-holes-drawing-2016-05-07.jpg)](img/ourself-enclosure-holes-drawing-2016-05-07.jpg)
 
-<img src="/ourself/img/ourself-whiteboard-wiring-2016-05-11.jpg" width="750">
+[![](img/thumbnail_750px_ourself-whiteboard-wiring-2016-05-11.jpg)](img/ourself-whiteboard-wiring-2016-05-11.jpg)
