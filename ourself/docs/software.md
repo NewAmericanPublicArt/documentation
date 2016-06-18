@@ -32,7 +32,7 @@ Don't delete the file "datalog.txt", or if you do, recreate it. If it doesn't ex
 
 This code worked nicely; it could be modified to make whatever state machine you need.
 
-```C
+```C++
 void updateStateMachine(void) {
     static int state = STATE_BASELINE;
 
