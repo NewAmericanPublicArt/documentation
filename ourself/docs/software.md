@@ -24,9 +24,9 @@ Don't delete the file "datalog.txt", or if you do, recreate it. If it doesn't ex
 
 # State machine in sensor Teensy #
 
-<img src="/ourself/img/ourself-state-machine-diagram-2016-05-10.jpg" width="750">
+[![](img/thumbnail_750px_ourself-state-machine-diagram-2016-05-10.jpg)](img/ourself-state-machine-diagram-2016-05-10.jpg)
 
-<img src="/ourself/img/ourself-whiteboard-state-machine-2016-04-14.jpg" width="750">
+[![](img/thumbnail_750px_ourself-whiteboard-state-machine-2016-04-14.jpg)](img/ourself-whiteboard-state-machine-2016-04-14.jpg)
 
 ### State machine code ###
 
