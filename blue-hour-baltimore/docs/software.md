@@ -4,7 +4,7 @@ Code repository on Github: [Blue Hour Baltimore](https://github.com/NewAmericanP
 
 Just for reference, here is the easing function I wrote for the Teensy.
 
-```C++
+```c++
 float easing(int mode, int cube_index, float ms_since_trigger) {
     float b = frame_snapshot[cube_index];
     float c = targets[cube_index] - frame_snapshot[cube_index];
@@ -25,7 +25,7 @@ Easing equations for color transitions: [Easing equations](http://www.gizma.com/
 
 # Making main loop execute at a fixed frequency #
 
-```C++
+```c++
 void loop() {
     unsigned long loop_thus_far;
     signed long loop_remaining;
