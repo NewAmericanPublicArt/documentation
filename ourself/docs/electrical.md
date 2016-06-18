@@ -20,6 +20,8 @@ The basic operation is this:
 
 <img src="/ourself/img/ourself-prototype-iso-2016-04-07.jpg" width="750">
 
+[![](img/thumbnail_750px_ourself-prototype-iso-2016-04-07.jpg)](img/ourself-prototype-iso-2016-04-07.jpg)
+
 <img src="/ourself/img/ourself-prototype-top-2016-04-07.jpg" width="750">
 
 <img src="/ourself/img/ourself-prototype-front-2016-04-07.jpg" width="750">
